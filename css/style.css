@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 15vh;
+  width: 96%;
+  margin: 2%;
+  background-color: rgb(230, 182, 225);
+}
+
+.slider {
+  height: 50vh;
+  width: 96%;
+  background-color: rgb(241, 221, 135);
+  margin: 2%;
+}
+
+.main {
+  background-color: lightgrey;
+  margin: 2%;
+}
+
+.main_title {
+  height: 10vh;
+  width: 100%;
+  background-color: grey;
+}
+
+.box {
+  float: left;
+  height: 70vh;
+  width: 15%;
+  margin: 1% 0;
+  background-color: rgb(153, 203, 245);
+}
+.center {
+  width: 68%;
+  margin: 1%;
+}
+
+.main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  height: 5vh;
+  width: 96%;
+  margin: 2%;
+  background-color: purple;
+}
