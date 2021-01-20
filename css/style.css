@@ -16,8 +16,8 @@ body {
 
 header {
   height: 16vh;
-  width: 96%;
-  margin: 0 2%;
+  width: 80%;
+  margin: 0 auto;
   /* background-color: rgb(230, 182, 225); */
 }
 #logo {
@@ -44,10 +44,32 @@ ul {
 }
 
 .slider {
-  height: 50vh;
-  width: 96%;
-  background-color: rgb(241, 221, 135);
-  margin: 2%;
+  min-height: 70vh;
+  width: 80%;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5vh auto;
+  border-radius: 15px;
+  color: white;
+}
+.layover {
+  position: relative;
+  min-height: 70vh;
+  min-width: 100%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.slider_title {
+  width: 60%;
+  font-size: 2em;
+  bottom:
+}
+.description {
+  position: absolute;
+  bottom: 5vh;
+  left: 3%;
 }
 
 .main {
