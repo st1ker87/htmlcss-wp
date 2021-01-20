@@ -10,11 +10,37 @@
   clear: both;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
-  height: 15vh;
+  height: 16vh;
   width: 96%;
-  margin: 2%;
-  background-color: rgb(230, 182, 225);
+  margin: 0 2%;
+  /* background-color: rgb(230, 182, 225); */
+}
+#logo {
+  height: 8vh;
+  margin: 0;
+}
+ul {
+  line-height: 8vh;
+}
+.nav li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  list-style: none;
+  display: inline-block;
+  margin-right: 2%;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+.nav li a:hover {
+  text-shadow: 2px 2px 3px grey;
 }
 
 .slider {
