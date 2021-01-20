@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header {
   height: 15vh;
   width: 96%;
