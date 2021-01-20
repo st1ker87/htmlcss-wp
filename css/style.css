@@ -30,7 +30,7 @@ ul {
 }
 .nav li {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 1.1em;
   list-style: none;
   display: inline-block;
@@ -71,7 +71,7 @@ ul {
 .slider_title {
   width: 60%;
   font-size: 2em;
-  bottom:
+  font-weight: normal;
 }
 .description {
   position: absolute;
@@ -88,6 +88,10 @@ ul {
 .box_title {
   min-height: 2em;
   width: 100%;
+  margin-bottom: 3vh;
+}
+.box_title>h1 {
+  font-weight: bolder;
 }
 
 .box {
@@ -119,7 +123,15 @@ ul {
 
 footer {
   height: 5vh;
-  width: 96%;
-  margin: 2%;
-  background-color: purple;
+  width: 80%;
+  margin: 2% auto;
+  line-height: 5vh;
+  vertical-align: middle;
+  text-align: center;
+  /* background-color: purple; */
+}
+.fas {
+  line-height: 5vh;
+  vertical-align: middle;
+  color: red;
 }
